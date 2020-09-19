@@ -19,6 +19,62 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
     }
+    /// サンプルコメント
+    /// - Parameters:
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント
+    /// サンプルコメント2
+    /// 123456789123456789123456789123456789123456789123456789123456789123456789123456789
+    ///
+    /// サンプルメソッド3
+    /// - Hogehoge: test
+    /// - Attention: Watch out for this!
+    /// - Author: Tim Cook
+    /// - Authors:
+    ///   John Doe
+    ///   Mary Jones
+    /// - Bug: This may not work
+    /// - Complexity: O(log n) probably
+    /// - Copyright: 2016 Acme
+    /// - Date: Jan 1, 2016
+    ///
+    /// - experiment: give it a try
+    /// - important: know this
+    /// - invariant: something
+    /// - Note: Blah blah blah
+    /// - Precondition: alpha should not be nil
+    /// - Postcondition: happy
+    /// - Remark: something else
+    /// - Requires: iOS 9
+    /// - seealso: [Apple web site](www.apple.com)
+    /// - Since: iOS 9
+    /// - Todo: make it faster
+    /// - Version: 1.0.0
+    /// - Warning: Don't do it
+    ///
+    /// - Parameters:
+    ///   - paramA: パラメータAの説明
+    ///   - paramB: パラメータBの説明
+    /// - Returns: 戻り値の説明
+    func lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllltestMethod3() {
+        
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

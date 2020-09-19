@@ -13,6 +13,8 @@
 		4BB1F496243F66B1005E74EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1F494243F66B1005E74EB /* Main.storyboard */; };
 		4BB1F498243F66B5005E74EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1F497243F66B5005E74EB /* Assets.xcassets */; };
 		4BB1F49B243F66B5005E74EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1F499243F66B5005E74EB /* LaunchScreen.storyboard */; };
+		4BB1F4A4243F6700005E74EB /* TestEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F4A3243F6700005E74EB /* TestEnum.swift */; };
+		4BB1F4A7243F6FB6005E74EB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1F4A6243F6FB6005E74EB /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4BB1F497243F66B5005E74EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BB1F49A243F66B5005E74EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BB1F49C243F66B5005E74EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB1F4A3243F6700005E74EB /* TestEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEnum.swift; sourceTree = "<group>"; };
+		4BB1F4A6243F6FB6005E74EB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		4BB1F48D243F66B1005E74EB /* DocumentCommentSample */ = {
 			isa = PBXGroup;
 			children = (
+				4BB1F4A5243F6FAB005E74EB /* Classes */,
+				4BB1F4A2243F66F8005E74EB /* Enums */,
 				4BB1F48E243F66B1005E74EB /* AppDelegate.swift */,
 				4BB1F490243F66B1005E74EB /* SceneDelegate.swift */,
 				4BB1F492243F66B1005E74EB /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				4BB1F49C243F66B5005E74EB /* Info.plist */,
 			);
 			path = DocumentCommentSample;
+			sourceTree = "<group>";
+		};
+		4BB1F4A2243F66F8005E74EB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4BB1F4A3243F6700005E74EB /* TestEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		4BB1F4A5243F6FAB005E74EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BB1F4A6243F6FB6005E74EB /* TestClass.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				4BB1F493243F66B1005E74EB /* ViewController.swift in Sources */,
 				4BB1F48F243F66B1005E74EB /* AppDelegate.swift in Sources */,
+				4BB1F4A4243F6700005E74EB /* TestEnum.swift in Sources */,
 				4BB1F491243F66B1005E74EB /* SceneDelegate.swift in Sources */,
+				4BB1F4A7243F6FB6005E74EB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
